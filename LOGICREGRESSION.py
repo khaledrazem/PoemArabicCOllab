@@ -3,7 +3,7 @@
 import pickle
 import pandas as pd
 from sklearn.utils import shuffle
-from preprocess import datapreprocessing
+from PoemArabicCOllab.preprocess import datapreprocessing
 from sklearn.pipeline import make_pipeline
 from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import TfidfVectorizer
